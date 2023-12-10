@@ -19,6 +19,7 @@ environment {
 
                 // Étape de compilation du projet
                 sh "mvn compile"
+                sh "mvn build"
                 // Etape de sonar
             }
         }
